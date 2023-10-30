@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .body{
+    background-color: orange;
+  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  background-image: url("download4.jpeg");
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>the A2Z</h3>
+      <p><a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/" target="_blank"><img src="download.jpeg" ></a></p>
+      <p> <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/" target="_blank">Hit</a></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>The leetcode</h3>
+      <p><a href="https://leetcode.com/problemset/all/" target="_blank"><img src="download.png" ></a></p>
+      <p> <a href="https://leetcode.com/problemset/all/" target="_blank">Go</a></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Google</h3>
+      <p><a href="https://www.google.com" target="_blank"><img src="download1.png" ></a></p>
+      <p> <a href="https://www.google.com" target="_blank">Google</a></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Youtube</h3>
+      <p><a href="https://www.youtube.com" target="_blank"><img src="download2.png" ></a></p>
+      <p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+    </div>
+  </div>
+  <p>jaisriram</p>
+  <div class="column">
+    <div class="card">
+      <h3>Youtube</h3>
+      <p><a href="http://kmitonline.com/login/index.php" target="_blank"><img src="images.png" ></a></p>
+      <p><a href="http://kmitonline.com/login/index.php" target="_blank">KMIT</a></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <h3>Geeks for Geeks</h3>
+      <p><a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header" target="_blank"><img src="download3.png" ></a></p>
+      <p><a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header" target="_blank">Geeks FOR Geeks</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
